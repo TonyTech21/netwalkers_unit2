@@ -26,9 +26,9 @@ body {
 .news-ticker {
   width: 100%;
   height: 2em;
-     background: linear-gradient(to right, #54565d, #616060);
+     background: linear-gradient(to right, #7e3629, #743125);
       background-image:
-        linear-gradient(to right, #54565d, #616060),
+        linear-gradient(to right, #7e3629, #743125),
         url('https://www.transparenttextures.com/patterns/stardust.png');
   overflow: hidden;
   z-index: 101;
@@ -298,9 +298,9 @@ small{
     position: sticky;
   top: 0;
   z-index: 9990; 
-   background: linear-gradient(to right, #54565d, #616060);
+    background: linear-gradient(to right, #7e3629, #743125);
       background-image:
-        linear-gradient(to right, #54565d, #616060),
+        linear-gradient(to right, #7e3629, #743125),
         url('https://www.transparenttextures.com/patterns/stardust.png');
   font-size: small;
    background-blend-mode: overlay;
@@ -601,7 +601,7 @@ small{
   margin: 0 auto;
 }
 .separator3 {
-  width: 8em;
+  width: 10em;
   height: 5px;
   background-color: #EE1D0E;
   margin-bottom: 10px;
@@ -959,6 +959,20 @@ small{
     height: auto;
     object-fit: cover;
   }
+  .module-part {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    .card-right img {
+      width: 100%;
+      border-radius: 10px;
+      height: 300px;
+      padding: 10px 43px;
+    }
 }
 
     
@@ -1342,12 +1356,7 @@ i{
 
  
 
-    .module-part {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: space-between;
-    }
+    
 
     .card {
       background-color: white;
@@ -1359,21 +1368,23 @@ i{
 
     .card-left {
       flex: 0 0 40%;
-      max-width: 35%;
+      max-width: 27%;
       display: flex;
       flex-direction: column;
-      height: 610px;
+      height: 400px;
       background-color: white;
+
     }
 
     .card-left h2 {
       background-color: #353737;
       color: white;
-      padding: 30px 35px;
+      padding: 12px 18px;
       border-radius: 8px;
       margin-bottom: 15px;
       font-size: 22px;
       font-weight: 700;
+      text-align: center;
 
     }
 
@@ -1386,7 +1397,7 @@ i{
     }
 
     .scroll-buttons::-webkit-scrollbar {
-      width: 6px;
+      width: 8px;
     }
 
     .scroll-buttons::-webkit-scrollbar-thumb {
@@ -1395,23 +1406,28 @@ i{
     }
 
     .scroll-buttons button {
-      padding: 20px 25px;
-      border: none;
-      border-radius: 8px;
-      font-weight: 600;
-      background-color: #EA7777;
-      color: white;
-      cursor: pointer;
-      transition: 0.3s;
-    }
+  padding: 10px 35px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  background-color: #EA7777;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  width: fit-content; 
+  text-align: center;
+  white-space: nowrap;
+}
+
+
 
     .scroll-buttons button.active {
       background-color: #D82727;
     }
 
     .card-right-wrapper {
-      flex: 0 0 63%;
-      max-width: 63%;
+      flex: 0 0 70%;
+      max-width: 70%;
       display: flex;
       flex-direction: column;
       gap: 20px;
@@ -1424,11 +1440,7 @@ i{
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 
-    .card-right img {
-      width: 100%;
-      border-radius: 10px;
-      height: 300px;
-    }
+    
 
     .card-right h3 {
       font-size: 20px;
@@ -1575,7 +1587,24 @@ i{
     @media (max-width: 768px) {
       .module-part {
         flex-direction: column;
+        
       }
+      .card-left {
+      flex: 0 0 40%;
+      max-width: 27%;
+      display: flex;
+      flex-direction: column;
+      height: 220px;
+      background-color: white;
+
+    }
+
+    .card-right img {
+      width: 100%;
+      border-radius: 10px;
+      height: 300px;
+    }
+   
 
       .card-left, .card-right-wrapper {
         max-width: 100%;

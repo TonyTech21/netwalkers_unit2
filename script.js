@@ -184,3 +184,4 @@ const buttons = document.querySelectorAll('#moduleButtons button');
         button.classList.add('active');
       });
     });
+
