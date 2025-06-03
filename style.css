@@ -407,10 +407,10 @@ small{
   box-shadow: 0 12px 30px ligh(37, 211, 102, 0.35);
 }
 
-/* .hero-image {
-  flex: 1 1 45%;
+.hero-image {
+  flex: 1 1 15%;
   animation: fadeInRight 1.2s ease;
-} */
+}
 
 .hero-image img {
   width: 100%;
