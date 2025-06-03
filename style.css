@@ -407,10 +407,10 @@ small{
   box-shadow: 0 12px 30px ligh(37, 211, 102, 0.35);
 }
 
-.hero-image {
-  flex: 1 1 50%;
+/* .hero-image {
+  flex: 1 1 45%;
   animation: fadeInRight 1.2s ease;
-}
+} */
 
 .hero-image img {
   width: 100%;
@@ -1526,7 +1526,7 @@ i{
         
       }
       .card-left {
-      flex: 0 0 40%;
+      flex: 0 0 10%;
       max-width: 27%;
       display: flex;
       flex-direction: column;
