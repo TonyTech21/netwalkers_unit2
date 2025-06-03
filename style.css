@@ -173,39 +173,7 @@ body {
   display: none;
 }
 
-.logo {
-  display: flex;
-  align-items: flex-start; /* align tops, not center */
-  gap: 10px;
-  z-index: 101;
-}
 
-.logo img {
-  height: 44px;
-  width: 44px;
-  border-radius: 5px;
-  margin-top: 2px;
-}
-
-.logo-text {
-  display: flex;
-  flex-direction: column;
-  color: white;
-  line-height: 1.2;
-}
-
-.logo-title {
-  font-weight: 600;
-  font-size: 16px;
-  display: inline-block;
-}
-
-.logo-subtitle {
-  font-weight: 400;
-  font-size: 13px;
-  display: inline-block;
-  margin-left: 155px; 
-}
 
 
 
@@ -229,39 +197,7 @@ body {
       clip-path: polygon(0 0, 100% 0, 100% 79%, 50% 100%, 0 79%);
       
     }
-     .logo {
-  display: flex;
-  align-items: flex-start; /* align tops, not center */
-  gap: 10px;
-  z-index: 101;
-}
-
-.logo img {
-  height: 44px;
-  width: 44px;
-  border-radius: 5px;
-  margin-top: 2px;
-}
-
-.logo-text {
-  display: flex;
-  flex-direction: column;
-  color: white;
-  line-height: 1.2;
-}
-
-.logo-title {
-  font-weight: 600;
-  font-size: 12px;
-  display: inline-block;
-}
-
-.logo-subtitle {
-  font-weight: 400;
-  font-size: 8px;
-  display: inline-block;
-  margin-left: 135px; 
-}
+    
 .mobile-menu {
     position: fixed;
     top: 6.5em;

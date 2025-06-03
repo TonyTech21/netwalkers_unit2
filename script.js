@@ -198,7 +198,7 @@ const buttons = document.querySelectorAll('#moduleButtons button');
       },
       {
         name: "Billings & Payments",
-        img: "img/billing.JPEG",
+        img: "img/billing.jpeg",
         heading: "The Billings & Payments Module",
         description: " Billing Modules which include payments, charges, deposits, debtors management.",
         tags: ["-----", "-----", "-----", "------", "-----"]
@@ -212,7 +212,7 @@ const buttons = document.querySelectorAll('#moduleButtons button');
       },
       {
         name: "Lab & Imaging",
-        img: "img/billing.JPEG",
+        img: "img/billing.jpeg",
         heading: "The Lab & Imaging Module",
         description: "Lab module which include order tracking, sample, lab consumable tracking, result approval, equipment integration management (HL7 2.3x). Imaging module which include order tracking, lab consumable tracking, result approval, equipment integration management (DICOM). ",
         tags: ["-----", "-----", "-----", "------", "-----"]
@@ -226,7 +226,7 @@ const buttons = document.querySelectorAll('#moduleButtons button');
       },
       {
         name: "Admin",
-        img: "img/billing.JPEG",
+        img: "img/billing.jpeg",
         heading: "The Admin Module",
         description: "Admin module which include HR, report, payrol, leaves, deduction and extra pay management. ",
        tags: ["-----", "-----", "-----", "------", "-----"]
@@ -240,21 +240,21 @@ const buttons = document.querySelectorAll('#moduleButtons button');
       },
       {
         name: "Account & Finance",
-        img: "img/billing.JPEG",
+        img: "img/billing.jpeg",
         heading: "The Account & Finance Module",
         description: "Finance module which include finance module which include incomes, expenses, pay request, loans managemnt.",
         tags: ["-----", "-----", "-----", "------", "-----"]
       },
       {
         name: "Inventory",
-        img: "img/billing.JPEG",
+        img: "img/front-office.png",
         heading: "Inventory",
         description: "Inventory modules which include suppliers, requisition,  instore items. ",
         tags: ["-----", "-----", "-----", "------", "-----"]
       },
       {
         name: "Ambulance",
-        img: "img/front-office.png",
+        img: "img/billing.jpeg",
         heading: "The Ambulance Module",
         description: "Ambulance module which includes trips management, vehicle & driver, service log management. ",
         tags: ["-----", "-----", "-----", "------", "-----"]
@@ -268,7 +268,7 @@ const buttons = document.querySelectorAll('#moduleButtons button');
       },
       {
         name: "Shop",
-        img: "img/billing.JPEG",
+        img: "img/billing.jpeg",
         heading: "The Shop Module",
         description: "Shop module which includes point of sales, shop item sales tracking and analytics management. Also CliniquePlus EMR has CliniquePlus CareConnect. Its system dedicated to facilities with multiple centers with a local server synced occationational with remote server so facilty does not have to depend on internet for operation and data can also accessed from anywhere in the world.",
         tags: ["-----", "-----", "-----", "------", "-----"]
